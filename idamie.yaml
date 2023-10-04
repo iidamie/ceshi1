@@ -35,7 +35,7 @@ proxies:
   - {name: 🇩🇪 免费-德国, server: v2.idamie.link, port: 22862, type: vmess, uuid: a6e1d3ba-2385-4490-fb3e-7bf6643248bc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: false}
 
   - name: 免费-Cloudflare
-    type: vless
+    type: vmess
     server: cf.idamie.link
     port: 443
     uuid: 9628920a-98a0-4a67-af36-e4cb1a64182c
